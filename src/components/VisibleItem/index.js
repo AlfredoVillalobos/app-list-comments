@@ -5,6 +5,7 @@ import {
   View,
   TouchableHighlight,
   Alert,
+  Linking,
 } from "react-native";
 import { elapseTime } from "../../common/elpaseTime";
 

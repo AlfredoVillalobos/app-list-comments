@@ -5,7 +5,6 @@ export const elapseTime = (date) => {
 
   const now = Day();
   let initDate = Day(date);
-  console.log({ now, initDate });
   const diffMin = now.diff(initDate, "minute");
   const diffHrs = now.diff(initDate, "hour");
   const diffDay = now.diff(initDate, "day");
